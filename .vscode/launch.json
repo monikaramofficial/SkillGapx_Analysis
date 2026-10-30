@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SkillGapX: Frontend (Next.js Dev)",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}/skillgapx-frontend"
+    },
+    {
+      "name": "SkillGapX: Launch Chrome Browser",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/skillgapx-frontend"
+    }
+  ]
+}

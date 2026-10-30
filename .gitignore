@@ -1,0 +1,110 @@
+# ==============================================================================
+# SkillGapX - Master .gitignore
+# Handles both skillgapx-frontend (Next.js) & skillgapx-backend (Spring Boot)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Operating System & Cache Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ------------------------------------------------------------------------------
+# IDEs & Code Editors
+# ------------------------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------------------------------------------------------
+# Node.js & Next.js (Frontend)
+# ------------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# Next.js Build Outputs
+.next/
+**/.next/
+out/
+**/out/
+build/
+**/build/
+dist/
+**/dist/
+
+# Next.js Cache & Turbopack
+.turbo/
+*.tsbuildinfo
+
+# Frontend Environment & Secret Files
+.env*.local
+**/.env*.local
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Vercel Deployment
+.vercel/
+
+# ------------------------------------------------------------------------------
+# Java & Maven (Backend)
+# ------------------------------------------------------------------------------
+target/
+**/target/
+*.class
+**/*.class
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven Release & Dependency Artifacts
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# ------------------------------------------------------------------------------
+# General Logs & Temporary Files
+# ------------------------------------------------------------------------------
+logs/
+*.log
+*.tmp
+*.bak
+

@@ -1,0 +1,15 @@
+{
+  "name": "skillgapx-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Root workspace for SkillGapX - MCA Project",
+  "scripts": {
+    "dev": "npm --prefix skillgapx-frontend run dev",
+    "dev:backend": "cd skillgapx-backend && mvn spring-boot:run",
+    "dev:all": "bash start-all.sh",
+    "build": "npm --prefix skillgapx-frontend run build",
+    "build:backend": "cd skillgapx-backend && mvn clean package",
+    "build:all": "npm run build:backend && npm run build",
+    "start": "npm --prefix skillgapx-frontend run start"
+  }
+}
